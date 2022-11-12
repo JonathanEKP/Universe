@@ -28,6 +28,6 @@ function mostrarDatos({ date, explanation, media_type, title, url }) {
         <iframe class="embed-responsive-item" style="height: 500px; width: 80%" src="${url}" allowfullscreen></iframe>
      `;
     } else {
-        multimedia.innerHTML = `<img src="${url}" class="img-fluid" alt="${url}">`;
+        multimedia.innerHTML = `<img src="${url}" class="img-fluid" alt="${url}" id="img-apod">`;
     }
 }
