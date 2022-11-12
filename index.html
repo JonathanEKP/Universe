@@ -19,7 +19,7 @@
     <div id="site-border-bottom"></div>
     <header style="background-image: url('assets/img/space.jpg')" class="background-image-container">
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg " style="font-family: 'Roboto Mono', monospace; font-size: 1rem;">
+        <nav class="navbar navbar-expand-lg pt-4 " style="font-family: 'Roboto Mono', monospace; font-size: 1rem;">
             <div class="container">
                 <!-- <a class="navbar-brand text-white" href="#">Navbar</a> -->
                 <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,11 +36,21 @@
                     <li class="nav-item">
                         <a class="nav-link text-secondary border-end" href="#">03: Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary border-end" href="assets/html/apod.html">04: Foto del dia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">05: Options</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            04: APIS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item text-secondary" href="assets/html/apod.html">04.1: Foto del dia</a>
+                            </li> 
+                            <li>
+                                <a class="dropdown-item text-secondary" href="#">04.2: API 2</a>
+                            </li> 
+                            <li>
+                                <a class="dropdown-item text-secondary" href="#">04.3: API 3</a>
+                            </li> 
+                        </ul>
                     </li>
                 </div>
             </div>
