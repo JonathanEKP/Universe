@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Imagen Del Dia NASA</title>
+    <style>
+        .box .box-cell.box1 {
+            margin: auto;
+            width: auto;
+            padding: auto;
+            align-items: flex-start;
+            text-align: center;
+        }
+
+        .box .box-cell.box2 {
+            margin: auto;
+            width: auto;
+            padding: auto;
+            align-items: flex-start;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box pt-5">
+            <div class="row ">
+                <div class="box-cell box1">
+                    <h3 id="labelti">APOD NASA</h3>
+                </div>
+                <div class="box-cell box2">
+                    <label for="input">Seleccione fecha:</label>
+                    <input type="date" id="fechaSelect" name="fechaSelect" placeholder="(AAAA-MM-DD)"
+                        pattern="\d{4}-\d{2}-\d{2}">
+                    <button id="btnVer" name="btnVer" onclick="obtenerDatos()">Ver</button>
+                </div>
+            </div>
+        </div>
+        <h3 id="titulo" class="pt-5 text-center"></h3>
+        <p id="fecha" class="text-center"></p>
+        <p id="descripcion" class="lead pt-3 "></p>
+
+        <div id="c_multimedia" class="embed-responsive embed-responsive-21by9 text-center">
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../js/apod.js"></script>
+</body>
+
+</html>
