@@ -21,7 +21,7 @@
         margin: 0;
         height: 100%;
         width: 100%;
-        background-color: aliceblue;
+        background-color: rgb(255, 255, 255);
       }
       .esri-legend {
         background-color: rgba(255, 255, 255, 0.8);
@@ -52,13 +52,13 @@
         // * time - the time of the event
 
         const template = {
-          title: "Earthquake Info",
-          content: "Magnitude {mag} {type} hit {place} on {time}."
+          title: "Info Terremoto",
+          content: "Magnitud {mag} {type} lugar {place} a las {time}."
         };
 
         const csvLayer = new CSVLayer({
           url: url,
-          copyright: "USGS Earthquakes",
+          copyright: "USGS Terremotos",
           popupTemplate: template
         });
 
@@ -178,7 +178,7 @@
             </div>
         </nav>
     </header>
-    <h3 class="text-center pt-4">Geolocalización Sátelital ArcGIS</h3>
+    <h3 id="labelti" class="text-center fw-bold h3 fs-2 mx-2 pt-5"> <span class="fs-4 fw-light">|</span> 04 : Terremotos GeoSatelital <span class="fs-4 fw-light">|</span></h3>
     <div id="viewDiv"></div>
   </body>
 </html>
