@@ -190,3 +190,9 @@ footer {
     transform: rotate(135deg);
     font-size: 25px;
 }
+/*API Google Maps*/
+.vg-maps {
+    width: 100%;
+    height: 450px;
+    background-color: #f8f9fa;
+}

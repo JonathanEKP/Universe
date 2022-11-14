@@ -198,7 +198,22 @@
     </div>
   </div>
 
-  <footer class="footer-container text-center bg-black py-2 text-secondary ">
+    <!-- API Google Maps -->
+    <div class="vg-page page-contact" id="api">
+      <div class="container-fluid">
+        <h3 id="labelti" class="text-center fw-bold h3 fs-2 mx-2"> <span class="fs-4 fw-light">|</span> 03 : API Google Maps
+           <span class="fs-4 fw-light">|</span></h3>
+        <div class="container">
+          <div class="ml-auto ">
+            <div class="vg-maps">
+              <div id="google-maps" style="width: 100%; height: 100%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br><br>
+
+  <footer class="footer-container text-center bg-black py-2 text-secondary pt-4">
     <div class="container pt-2">
         <div class="row">
             <div class="col-xs-12">
@@ -208,7 +223,11 @@
     </div>
 </footer>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!-- Javas necesarios para api de maps -->
+  <script src="../js/google-maps.js"></script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"
     integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
