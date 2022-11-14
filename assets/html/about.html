@@ -23,7 +23,7 @@
     <div id="site-border-bottom"></div>
     <header>
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg pt-4 " style="font-family: 'Roboto Mono', monospace; font-size: 1rem;">
+        <nav class="navbar navbar-expand-lg mt-4 " style="font-family: 'Roboto Mono', monospace; font-size: 1rem;">
             <div class="container">
                 <!-- <a class="navbar-brand text-white" href="#">Navbar</a> -->
                 <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,24 +61,24 @@
         </nav>
     </header>
 
-    <main class="container py-4">
+    <main class="container ">
         <section id="info" class="py-3">
             <h1 class="text-center h1 display-5">Nuestra web</h1>
-            <div class="row">
-                <div class="col-12" data-aos="zoom-out">
+            <div class="row g-0" data-aos="zoom-out">
+                <div class="col-12">
                     <p class="text-center fs-6 text-secondary">
                         El sitio web está hecho para ser un sitio informativo sobre el espacio, astros y todo lo que tenga que ver con la astronomia. Nuestro principal objetivo al construir este sitio es conocer más sobre esta ciencia y cuan importante es.
                     </p>
                 </div>
-                <div class="col-12 col-lg-6 mx-auto d-flex justify-content-center" data-aos="zoom-out">
-                    <img src="../img/about-1.jpg" alt="" class="img-fluid img-filter">
+                <div class="col-12 col-lg-6 mx-auto d-flex justify-content-center" >
+                    <img src="../img/about-1.jpg" alt="" class="img-fluid img-filter" >
                 </div>
             </div>
         </section>
 
-        <section id="nasa" class="py-3 pt-4">
+        <section id="nasa" class="py-3 mt-4 ">
             <h1 class="text-center h1 display-5">NASA</h1>
-            <div class="row pt-3">
+            <div class="row g-2 mt-3" >
                 <div class="col-12 col-lg-6 d-flex align-items-center" data-aos="fade-right">
                     <p class="text-center fs-6 text-secondary">
                         La agencia del gobierno de EE.UU NASA es la responsable del programa espacial civil, así como de las investigaciones aeronáutica y aeroespacial. Esta, es a su vez la principal fuente de APIS que se pueden consumir con el lenguaje de programación JavaScript.
@@ -91,9 +91,9 @@
             </div>
         </section>
 
-        <section id="astronomia" class="py-3 pt-5">
-            <h1 class="text-center h1 display-5 pt-1">Astronomía</h1>
-            <div class="row">
+        <section id="astronomia" class="py-3 mt-4">
+            <h1 class="text-center h1 display-5 mt-1">Astronomía</h1>
+            <div class="row g-1">
                 <div class="col-12" data-aos="fade-up">
                     <p class="text-center fs-6 text-secondary">
                         La astronomía es la ciencia natural que estudia los cuerpos celestes del universo, incluidos las estrellas, los planetas, sus satélites naturales, los asteroides, cometas y meteoroides, la materia interestelar, las nebulosas, la materia oscura, las galaxias y demás; por lo que también estudia los fenómenos astronómicos ligados a ellos, como las supernovas, los cuásares, los púlsares, la radiación cósmica de fondo, los agujeros negros, entre otros, así como las leyes naturales que las rigen.
@@ -114,10 +114,10 @@
             </div>
         </section>
 
-        <section id="diferencias" class="py-3 pt-4">
+        <section id="diferencias" class="py-3 mt-4">
             <h1 class="text-center h1 display-5">Astronomía y Astrología,¿Lo mismo?</h1>
-            <div class="row">
-                <div class="col-12" data-aos="zoom-in">
+            <div class="row g-0" >
+                <div class="col-12">
                     <p class="text-center fs-6 text-secondary">
                         La mayor diferencia que encontramos entre astronomía y astrología es que, mientras la primera es considerada una ciencia y colabora con otras ciencias como la física o las matemáticas, la astrología se define como una creencia pseudocientífica.
                     </p>
@@ -127,11 +127,77 @@
                 </div>
             </div>
         </section>
+
+        <section id="api" class="py-3 mt-3">
+            <h1 class="text-center h1 display-5">API'S que usamos</h1>
+            <h4 class="text-center h4 display-6 mt-3">APOD</h4>
+            <div class="row g-0">
+                <div class="col-12">
+                    <p class="text-center fs-6 text-secondary">
+                        El Astronomy Picture of the Day es un sitio web mantenido por la NASA y por la Universidad Tecnológica de Míchigan. De acuerdo con el sitio web, "cada día, se muestra una imagen o foto diferente del nuestro universo, con una corta explicación escrita por un astrónomo profesional"
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 mx-auto d-flex justify-content-center" data-aos="fade-down-left">
+                    <img src="../img/apod.png" alt="" class="img-fluid img-filter">
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <a href="https://api.nasa.gov/" target="_blank" class="text-about text-primary pt-4">Buscar APOD</a>
+                </div>
+            </div>
+
+            <h4 class="text-center h4 display-6 mt-5">ArcGIS</h4>
+            <div class="row g-0">
+                <div class="col-12" data-aos="flip-up">
+                    <p class="text-center fs-6 text-secondary">
+                        ArcGIS es un completo sistema que permite recopilar, organizar, administrar, analizar, compartir y distribuir información geográfica. Como la plataforma líder mundial para crear y utilizar sistemas de información geográfica (SIG), ArcGIS es utilizada por personas de todo el mundo para poner el conocimiento geográfico al servicio de los sectores del gobierno, la empresa, la ciencia, la educación y los medios.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-4 mx-auto d-flex justify-content-center" data-aos="flip-up">
+                    <img src="../img/arcgis.png" alt="" class="img-fluid img-filter">
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <a href="https://developers.arcgis.com/javascript/latest/visualization/3d-visualization/globes-and-local-scenes/#create-a-globe" target="_blank" class="text-about text-primary pt-4">ArcGIS</a>
+                </div>
+            </div>
+
+            <h4 class="text-center h4 display-6 mt-5">Mars Rover Photos API Space Science</h4>
+            <div class="row g-0">
+                <div class="col-12" data-aos="zoom-in">
+                    <p class="text-center fs-6 text-secondary">
+                        Esta API está diseñada para recopilar datos de imágenes recopilados por los robots Curiosity, Opportunity y Spirit de la NASA en Marte y hacer que estén más fácilmente disponibles para otros desarrolladores, educadores y científicos ciudadanos.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 pb-2 pb-lg-0 mx-auto d-flex justify-content-center" data-aos="zoom-in-up">
+                    <img src="../img/curiosity.jpg" alt="" class="img-fluid img-filter">
+                </div>
+
+                <div class="col-12 col-lg-6 pb-2 pb-lg-0 mx-auto d-flex justify-content-center" data-aos="zoom-in-down">
+                    <img src="../img/spirit.jpg" alt="" class="img-fluid img-filter">
+                </div>
+
+                <div class="col-12 d-flex justify-content-center">
+                    <a href="https://api.nasa.gov/" target="_blank" class="text-about text-primary pt-4">Buscar Mars Rover Photos</a>
+                </div>
+            </div>
+
+            <h4 class="text-center h4 display-6 mt-5">Whatsapp & Messenger</h4>
+            <div class="row g-0">
+                <div class="col-12" >
+                    <p class="text-center fs-6 text-secondary">
+                        Estas apis de las dos mayores redes de mensajeria en todo el mundo, están implementadas para poder enviar mensajes personalizados y estar en contacto con los visitantes.
+                    </p>
+                </div>
+                <div class="col-12 d-flex justify-content-center gap-5">
+                    <a href="https://developers.facebook.com/docs/whatsapp/cloud-api/get-started" target="_blank" class="text-about text-primary ">Whatsapp</a>
+                    <a href="https://developers.facebook.com/docs/messenger-platform/discovery/m-me-links#format" target="_blank" class=" text-center text-about text-primary">Messenger</a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="footer-container text-center bg-black py-2 text-secondary ">
-        <div class="container pt-2">
-            <div class="row">
+        <div class="container mt-2">
+            <div class="row g-0">
                 <div class="col-xs-12">
                     <p>© Copyright 2022 | Website creada por: <br>Jonathan Alberto Larios Valdez(049120)<br> Rodrigo Jose Portillo Bonilla(023520) <br> Jose Daniel Osorio Elias(212318) <br> Ever Alexander Garcia Vasquez(079719)</p>
                 </div>

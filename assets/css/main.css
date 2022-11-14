@@ -110,6 +110,12 @@ footer {
     filter: none;
 }
 
+.text-about{
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+
 /*STYLE para whatsapp*/
 .float {
     position: fixed;
