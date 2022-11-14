@@ -115,6 +115,56 @@ footer {
     text-decoration: none;
 }
 
+#info1,
+#info2,
+#info3,
+#info4,
+#info5,
+#info6,
+#info7,
+#img1,
+#img2,
+#img3,
+#img4,
+#img5{
+    opacity: 0;
+    transform: scale(0.9);
+    transition: 0.7s ease-in-out all;
+}
+
+#info1.visible,
+#info3.visible,
+#info4.visible,
+#info5.visible,
+#info6.visible,
+#info7.visible,
+#img2.visible{
+    opacity: 1;
+    transform: scale(1);
+}
+
+#info2.izq,
+#img1.izq,
+#img5.izq{
+    transform: translateX(-100px)
+}
+
+
+#img3.der,
+#img4.der{
+    transform: translateX(100px);
+}
+
+#info2.visible,
+#img1.visible,
+#img3.visible,
+#img4.visible,
+#img5.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
 
 /*STYLE para whatsapp*/
 .float {
