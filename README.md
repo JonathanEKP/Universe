@@ -28,8 +28,8 @@
     como equipo hemos decidido que el sitio tambien será gratuito
     y lo podremos encontrar:
 
-        ° GitHub:
-        ° Host Web: 
+        ° GitHub:https://github.com/JonathanEKP/Universe
+        ° Host Web: https://jonathanekp.github.io/Universe/index.html 
 
 
     Esperamos que el sitio sea una fuente de conocimiento de los astros
